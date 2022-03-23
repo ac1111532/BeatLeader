@@ -9,7 +9,7 @@ namespace BeatLeader.Models
         public int BeatmapID { get; set; }
         public int PlayerID { get; set; }
         public int Multiplier { get; set; }
-        public char Rank { get; set; }
+        public string Rank { get; set; }
         public decimal Percentage { get; set; }
         public int score { get; set; }
         public bool FullCombo { get; set; }
